@@ -1,0 +1,15 @@
+[{
+    "City":"Abuja",
+    "Temperature":{
+
+        "Metric":{
+            "value":27.1,
+            "unit":"C"
+    }
+
+
+},
+    "Weather-text":"cloudy",
+    "Weather-icon":7,
+    "isDayTime":true
+}]

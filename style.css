@@ -1,0 +1,151 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.header-text{
+    font-size: 30px;
+    text-decoration: none;
+    color: coral;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.header-logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
+.main-text{
+  text-align: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.location-input{
+    height: 40px;
+    width: 250px;
+    padding-left: 10px;
+}
+.input-error{
+    
+}
+.btn{
+    height: 44px;
+    width: 80px;
+    margin-left: 20px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+.section-two{
+    background-color: cadetblue;
+    height: 500px;
+    padding-top: 20px;
+    
+}
+.powered-by{
+    text-align: center;
+    margin: 5px;
+}
+.accu-logo{
+    width: 200px;
+    margin: 5px;
+    
+}
+.accu-logo-container{
+    display: flex;
+    justify-content: center;
+}
+.coded-by{
+    text-align: center;
+    margin: 20px;
+}
+.developer-card{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.dev-img{
+    height: 120px;
+}
+.developer-text-container{
+    margin-left: 20px;
+
+}
+.developer-name{
+    margin-bottom: 5px;
+}
+.developer-xp{
+    margin-bottom: 20px;
+}
+.whatsapp-btn{
+    border: 1px solid transparent;
+    text-decoration: none;
+    background-color: #1AB152;
+    color: white;
+    font-size: 11px;
+    border-radius: 500px;
+    padding: 14px 18px 14px 45px;
+    font-weight: 700;
+    background-image: url(images/whatsapp.png);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: 10% 50%;
+    
+}
+.credits-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.credits{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.footer{
+    background-color: darkcyan;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+.weather-info-card{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.day-night-img-container{
+   display: flex;
+   justify-content: center;
+}
+.weather-info-card img{
+    width: 60%;
+}
+.temp{
+    font-size: 40px;
+}
+.temp,.weather{
+    text-align: center;
+}
+.location-name{
+   text-align: center;
+}
+.temp,.weather,.location-name{
+    margin: 10px;
+}
+.weather{
+    text-transform: uppercase;
+}
+.error-unavailable{
+    text-align: center;
+    color: red;
+}
